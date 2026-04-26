@@ -1,0 +1,81 @@
+GET http://localhost:9004/api/product
+
+#####
+GET http://localhost:9004/api/product/name/price
+
+#####
+GET http://localhost:9004/api/product/search?price=1000
+
+
+
+#####
+POST http://localhost:9004/api/product
+Content-Type: application/json
+
+[
+  {
+    "code": 110011,
+    "name": "SSD Kingston 240GB",
+    "description": "SSD Kingston 240GB",
+    "price": 212.99
+  },
+  {
+    "code": 110012,
+    "name": "HD Seagate 1TB",
+    "description": "Disco rígido Seagate Barracuda 1TB",
+    "price": 289.90
+  },
+  {
+    "code": 110013,
+    "name": "Memória RAM Corsair 8GB DDR4",
+    "description": "Módulo de memória DDR4 Corsair 8GB 3200MHz",
+    "price": 179.50
+  },
+  {
+    "code": 110014,
+    "name": "Placa de Vídeo NVIDIA GTX 1660",
+    "description": "Placa gráfica NVIDIA GeForce GTX 1660 6GB",
+    "price": 1499.00
+  },
+  {
+    "code": 110015,
+    "name": "Processador Intel Core i5 12400F",
+    "description": "CPU Intel Core i5 12ª geração modelo 12400F",
+    "price": 1129.99
+  },
+  {
+    "code": 110016,
+    "name": "Placa-mãe ASUS Prime B660M",
+    "description": "Placa-mãe ASUS Prime B660M DDR4",
+    "price": 899.00
+  },
+  {
+    "code": 110017,
+    "name": "Fonte Corsair 650W 80 Plus Bronze",
+    "description": "Fonte de alimentação Corsair 650W certificação Bronze",
+    "price": 459.90
+  },
+  {
+    "code": 110018,
+    "name": "Gabinete Gamer Redragon",
+    "description": "Gabinete Redragon com lateral em vidro temperado",
+    "price": 349.00
+  },
+  {
+    "code": 110019,
+    "name": "Monitor LG 24'' Full HD",
+    "description": "Monitor LG 24 polegadas resolução Full HD",
+    "price": 799.00
+  },
+  {
+    "code": 110020,
+    "name": "Teclado Mecânico HyperX Alloy",
+    "description": "Teclado mecânico HyperX Alloy FPS com switches Red",
+    "price": 499.00
+  }
+]
+
+
+##########
+
+
